@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calcula Consumo</title>
+</head>
+<body>
+	<h3>Álcool ou Gasolina?</h3>
+	<script type="text/javascript">
+		var tanque = 40;
+		var caminhoDeGasolina = 480;
+		var consumoDeGasolina = caminhoDeGasolina / tanque;
+		var caminhoDeAlcool = 300
+		var consumoDeAlcool = caminhoDeAlcool / tanque
+
+		document.write("O cosumo de gasolina é de " + consumoDeGasolina + " km por litro." + "<br>");
+		document.write()
+		document.write("O cosumo de alcool é de " + consumoDeAlcool + " km por litro." + "<br>");
+		document.write("O preço da gasolina por km é de: R$" + (2.90 / consumoDeGasolina).toFixed(2) + "." + "<br>")
+		document.write("O preço do álcool por km é de: R$" + (2.40 / consumoDeAlcool).toFixed(2) + ".")
+	</script>
+</body>
+</html>
